@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style_alternatives.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lisu+Bosa&family=Lobster&display=swap" rel="stylesheet">
+    <title>MedSelect Comparison</title>
+</head>
+<body>
+    <div class="navbar">
+        <div class="home-btn">
+            <a href="index.html"><i class="fa-solid fa-house"></i></a>
+        </div>
+        <div class="title">
+            <p>MedSelect</p>
+        </div>
+        <div class="account">
+            <a class="login-btn" href="login.html">Login</a>
+            <a class="register-btn" href="register.html">Register</a>
+        </div>
+    </div>
+    <div class="content">
+        <div class="search">
+            <div class="input">
+                <div class="input-search">
+                    <input type="text" placeholder="Type here" size="30">
+                </div>
+                <div class="input-btn">
+                    <a class="input-btn1" href="#">&#8804; &#8805;</a>
+                    <a class="input-btn2" href="reviews.html">&#9733;</a>
+                </div>
+            </div>
+        </div>
+        <div class="cards">
+            <div class="card1">
+                <div class="d1">
+                    <div class="card-content">
+                        <p class="med-name">Welchol</p>
+                        <p>Type: Brand</p>
+                        <p>Manufacturer: Cosette Pharma</p>
+                        <p>Active Ingredients:</p>
+                        <ul>
+                            <li><i>Colesevelam hydrochloride</i><br><span>(bile acid sequestrant)</span></li>
+                        </ul>
+                    </div>
+                    <div class="card-btns">
+                        <a href="#">Reviews</a>
+                        <span><i class="fa-regular fa-bookmark"></i></span>
+                    </div>
+                </div>
+                <div class="nav-btns" style="visibility: hidden;">
+                    <a class="prev-btn" href="#">PREV</a>
+                    <a class="next-btn" href="#">NEXT</a>
+                </div>
+            </div>
+            <div class="card2">
+                <div class="d1">
+                    <div class="card-content">
+                        <p id="med_name" class="med-name"></p>
+                        <p id="med_type"></p>
+                        <p id="med_man"></p>
+                        <p>Active Ingredients:</p>
+                        <ul>
+                            <li><i id="med_ingredients"></i><br><span id="med_class"></span></li>
+                        </ul>
+                    </div>
+                    <div class="card-btns">
+                        <a href="#">Reviews</a>
+                        <span><i class="fa-regular fa-bookmark"></i></span>
+                    </div>
+                </div>
+                <div class="nav-btns">
+                    <a id="med_prev" class="prev-btn" href="#">PREV</a>
+                    <a id="med_next" class="next-btn" href="#">NEXT</a>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+</body>
+<script src="read_data.js"></script>
+</html>

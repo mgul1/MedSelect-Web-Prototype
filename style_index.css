@@ -1,0 +1,169 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 1.5rem;
+    border-bottom: 1px solid #E9EAEC;
+}
+
+.home-btn {
+    display: flex;
+    align-items: center;
+}
+
+.home-btn a {
+    font-size: 30px;
+    color: black;
+    text-decoration: none;
+}
+
+.account {
+    display: flex;
+}
+
+.account a {
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+    font-family: "Lisu Bosa", serif;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem 1.2rem;
+}
+
+.login-btn {
+    background-color: white;
+    border: 1px solid #E9EAEC;
+    margin-right: 1rem;
+}
+
+.register-btn {
+    background-color: #C3E0E5;
+    border: 1px solid #C3E0E5;
+}
+
+.content {
+    flex: 1;
+    padding: 2rem;
+}
+
+.header {
+    text-align: center;
+    padding: 2rem 0rem;
+}
+
+.header p {
+    margin: 0;
+}
+
+.title {
+    font-size: 50px;
+    font-family: "Lobster", sans-serif;
+}
+
+.sub-title {
+    font-size: 30px;
+    font-family: "Lisu Bosa", serif;
+}
+
+.search {
+    padding: 2rem 0rem;
+    display: flex;
+    justify-content: center;
+}
+
+.input {
+    border: 1px solid #7c8188;
+    border-radius: 5px;
+    display: flex;
+    padding: 0.5rem;
+    width: 500px;
+}
+
+.input-search {
+    border-right: 1px solid #d4d6d8;
+    display: flex;
+    margin-right: 0.5rem;
+    flex: 1;
+}
+
+.input-search input {
+    font-size: 18px;
+    border: none;
+    font-family: "Lisu Bosa", serif;
+    flex: 1;
+}
+
+.input-search input::placeholder {
+    color: #d4d6d8;
+    font-family: "Lisu Bosa", serif;
+}
+
+.input-search input:focus {
+    outline: none;
+}
+
+.input-btn {
+    display: flex;
+}
+
+.input-btn a {
+    text-decoration: none;
+    font-size: 25px;
+    color: #7c8188;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    padding: 0rem 0.3rem;
+    text-wrap: nowrap;
+}
+
+.input-btn1 {
+    margin-right: 0.4rem;
+}
+
+.input-btn1:hover {
+    background-color: #C3E0E5; 
+    border-radius: 5px;
+}
+
+.input-btn2:hover {
+    background-color: #C3E0E5;
+    border-radius: 5px;
+}
+
+.label {
+    padding: 2rem 0rem;
+    display: flex;
+    justify-content: center;
+}
+
+.label div {
+    background-color: #C3E0E5;
+    border-radius: 5px;
+    font-size: 18px;
+    font-family: "Lisu Bosa", serif;
+    padding: 1.5rem;
+    width: 600px;
+}
+
+.label p {
+    margin: 0;
+}
+
+.label ul {
+    margin: 0;
+}
+
+.label span {
+    color: #5d9faa;
+    text-wrap: nowrap;
+}
